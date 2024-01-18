@@ -1,7 +1,7 @@
 ### typescript
 
-npm init
-npm install -g ts-node
+1. npm init
+2. npm install -g ts-node
 
 ### compile & start
 
