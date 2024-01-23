@@ -1,3 +1,25 @@
+### typescript debugger
+
+1. sudo npm install -g nodemon
+2. launch.json
+
+```
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "ts-node",
+      "type": "node",
+      "request": "launch",
+      "restart": true,
+      "runtimeExecutable": "nodemon",
+      "program": "${workspaceFolder}/app.ts",
+      "console": "integratedTerminal"
+    }
+  ]
+}
+```
+
 ### typescript
 
 1. npm init
