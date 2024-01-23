@@ -25,7 +25,7 @@ const requestHandler = (
 
   if (url === "/message" && method === "POST") {
     const body: Buffer[] = [];
-    req.on("data", (chunk) => {
+    req.on("data", (chunk: Buffer) => {
       console.log(chunk);
       body.push(chunk);
     });
