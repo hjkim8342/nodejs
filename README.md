@@ -1,3 +1,7 @@
+### 2024.01.24
+
+1. typescript delete
+
 ### typescript debugger
 
 1. sudo npm install -g nodemon
